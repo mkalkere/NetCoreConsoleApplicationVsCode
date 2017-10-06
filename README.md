@@ -5,4 +5,8 @@ If you are used to visual studio for creating new projects then you will sure be
 
 If you had ever encountered the above thought the don't worry you are not alone :wink:.
 
+##Let's briefly take a look at how to create one.
+
+###We would require .Net core installed (download from here [.Net Core](http://www.microsoft.com/net/download/core))
+
 
