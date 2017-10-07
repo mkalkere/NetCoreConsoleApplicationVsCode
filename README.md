@@ -11,7 +11,7 @@ If you had ever encountered the above thought the don't worry you are not alone 
 1. [.Net Core](http://www.microsoft.com/net/download/core)
 2. [VS Code](https://code.visualstudio.com/) 
 
-Once installed we can check to make sure that .Net Core is installed and the path variable is set properly be exexuting the below command in the command prompt.
+Once installed we can check to make sure that .Net Core is installed and the path variable is set properly be executing the below command in the command prompt.
 
 ```
 dotnet --version
