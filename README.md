@@ -52,6 +52,35 @@ Enter the below command to open the _ConsoleApplication_ project in _VS Code_
 ```
 c:\ConsoleApplication> code .
 ```
-This will open the _ConsoleApplication_ project in the _Visual Studio code_.
+This will open the _ConsoleApplication_ project in the _Visual Studio code_. VS Code will prompt you to install the C# extension rightly identifying the project type which you have opened.
 
+Go ahead and install the [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) extension from Microsoft which provides the great development and productivity experiance like Syntax Highlighting, Intellisense, Debugging Support and many more.
 
+#### Step 4:
+Configure VS Code to build and debug the project.
+
+we need to configure the VS code to tell it how to compile and debug the applications. For this it uses 2 files.
+
+Usually VS Code will prompt you to add the missing assets for debug and build automatically when you open any project and if you have C# extension installed.
+
+We will not be discussing on how to add the required files to build and debug the project here. you can find more details on this over [here](https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger.md).
+
+* Task.json 
+* Launch.json
+
+Open launch.json file and find the section _``"name": ".NET Core Launch (console)"``_
+
+Replace the belwo line:
+
+_``"program": "${workspaceRoot}/bin/Debug/<insert-target-framework-here>/<insert-project-name-here>.dll",``_
+
+With:
+
+_``"program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/ConsoleApplication.dll",``_
+
+Now you are all set to debug your Console application in _Visual Studio Code_
+
+#### Step 5:
+* Place a break point in program.cs file either by clicking on the line of code where you want the debug to break and pressing F9 key or by clicking on the space to the left of the line number.
+
+* Press F5 to begin debug yor code.
