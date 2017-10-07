@@ -38,7 +38,7 @@ _1. _``dotnet new console``_ : scaffolds the console application template._
 
 _2. _``-o "ConsoleApplication"``_ : inputs the folder in which to scaffold the files into._
 
-![](https://drive.google.com/open?id=0BxD93dWLzjMSNzVVS2xRZTJlY3c)
+![Image](https://drive.google.com/open?id=0BxD93dWLzjMSNzVVS2xRZTJlY3c)
 
 Now you will have all the files created required for the Console Application.
 
