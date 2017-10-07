@@ -25,9 +25,9 @@ Output:
 
 #### Since we have set up the necessary tools required let's begin with creating the console application.
 
-Before we actually start with scaffolding the console application template. Let's try to understand briefly the tool which helps in Scafolding, Debugging and Building the .Net Core Application - [.Net CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x) Tool.
+Before we actually start with [scaffolding](http://www.dictionary.com/browse/scaffold) the console application template. Let's try to understand briefly the tool which helps in Scafolding, Debugging and Building the .Net Core Application - [.Net CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x) Tool.
 
-
+In simple terms it's a cross platform tool which aids in developing the .Net Applications and other high level tools.
 #### Step 1:
 
 Create a folder in which we will be scaffolding the project.
