@@ -32,14 +32,26 @@ In simple terms it's a cross platform tool which aids in developing the .Net App
 
 Open a ``Command prompt`` or a ``Terminal in VS Code`` (by clicking _``Ctrl+` ``_ ) and enter the below command
 ```
-dotnet new console -o "ConsoleApplication"
+c:\> dotnet new console -o "ConsoleApplication"
 ```
 _1. _``dotnet new console``_ : scaffolds the console application template._ 
 
 _2. _``-o "ConsoleApplication"``_ : inputs the folder in which to scaffold the files into._
 
-![Image](https://drive.google.com/open?id=0BxD93dWLzjMSNzVVS2xRZTJlY3c)
 
 Now you will have all the files created required for the Console Application.
 
-####Step 2:
+#### Step 2:
+Switch the path to the folder _``ConsoleApplication``_ using the below command. 
+```
+c:\> cd ConsoleApplication
+```
+
+#### Step 3:
+Enter the below command to open the _ConsoleApplication_ project in _VS Code_
+```
+c:\ConsoleApplication> code .
+```
+This will open the _ConsoleApplication_ project in the _Visual Studio code_.
+
+
