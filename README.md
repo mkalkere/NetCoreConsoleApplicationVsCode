@@ -30,7 +30,12 @@ Before we actually start with [scaffolding](http://www.dictionary.com/browse/sca
 In simple terms it's a cross platform tool which aids in developing the .Net Applications and other high level tools.
 #### Step 1:
 
-Create a folder in which we will be scaffolding the project.
+Open a ``Command prompt`` or a ``Terminal in VS Code`` (by clicking _``Ctrl+` ``_ ) and enter the below command
 ```
+dotnet new console -o "ConsoleApplication"
+```
+_1. _``dotnet new console``_ : scaffolds the console application template._ 
 
-```
+_2. _``-o "ConsoleApplication"``_ : inputs the folder in which to scaffold the files into._
+
+Now you will have all the files created required for the Console Application.
