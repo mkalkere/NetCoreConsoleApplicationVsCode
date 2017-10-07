@@ -81,7 +81,7 @@ _``"program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/ConsoleApplication.dll",
 Now you are all set to debug your Console application in _Visual Studio Code_
 
 #### Step 5:
-* Place a break point in program.cs file either by clicking on the line of code where you want the debug to break and pressing F9 key or by clicking on the space to the left of the line number.
+* Place a break point in program.cs file either by clicking on the line of code where you want the debugger to break and pressing F9 key or by clicking on the space to the left of the line number.
 
 * Press F5 to begin debug yor code.
 
