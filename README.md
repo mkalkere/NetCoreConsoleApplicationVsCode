@@ -88,3 +88,7 @@ Now you are all set to debug your Console application in _Visual Studio Code_
 #### Step 6:
 
 You will see the output ``Hello world!`` in the debug console.
+
+Hope this short article helped to build and debug the Console application in Visual Studio Code.
+
+_Happy Coding!!_
